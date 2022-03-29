@@ -8,37 +8,56 @@
     <title>Miratex House</title>
 </head>
 <body>
+    <!--ШАПКА-->
     <header class="header">
         <div class="container">
             <div class="wrapper">
                 <a href="#" class="logo">
-                    <img src="assets/img/logo_header.png" alt="logo" style="width: 102px; height: 32px;">
+                     <img src="assets/img/logo_header.png" alt="logo_header" style="width: 102px; height: 32px;">
                 </a>
                 <!--меню-->
                 <nav class="nav">
                     <ul class="main_menu">
                         <li class="menu_katalog">
-                            <a href="#">КАТАЛОГ</a>
+                            <a href="#katalogid">КАТАЛОГ</a>
                         </li>
                         <li class="menu_kontakt">
-                            <a href="#">КОНТАКТЫ</a>
+                            <a href="#kontakt">КОНТАКТЫ</a>
                         </li>
                         <li class="menu_zarabati">
-                            <a href="#">ЗАРАБАТЫВАЙ С НАМИ</a>
+                            <a href="#zarabati">ЗАРАБАТЫВАЙ С НАМИ</a>
+                        </li>
+                        
+                        <li class="language">
+                            <a href="#" class="language_EN">EN</a>
+                            <a href="#" class="language_DE">DE</a>
+                            <a href="#" class="language_FR">FR</a>
+                            <a href="#" class="language_ES">ES</a>
+                            <a href="#" class="language_RU">RU</a>
                         </li>
         
-                        <li class="language">
-                            <p class="language_EN">EN</p>
-                            <p class="language_DE">DE</p>
-                            <p class="language_FR">FR</p>
-                            <p class="language_ES">ES</p>
-                            <p class="language_RU">RU</p>
-                        </li>
                         <li class="img_share">
                             <img src="assets/img/share.png" alt="share">
                         </li>
-                        <li class="info_share">
-                            <a href="#">ПОДЕЛИТЬСЯ</a>
+                        <div class="podelitsya">
+                            <li class="info_share">
+                                <a href="#">ПОДЕЛИТЬСЯ</a>
+                            </li>
+                            <div class="ssylki">
+                                <div class="ssylk1">
+                                    <img src="assets/img/instagram.png" alt="instagram" style="width: 24px; height: 24px;">
+                                </div>
+                                <div class="ssylk1">
+                                    <img src="assets/img/facebook.png" alt="facebook" style="width: 24px; height: 24px;">
+                                </div>
+                                <div class="ssylk1">
+                                    <img src="assets/img/pinterest.png" alt="pinterest" style="width: 24px; height: 24px;">
+                                </div>
+                                <div class="ssylk1">
+                                    <img src="assets/img/youtube.png" alt="youtube" style="width: 24px; height: 24px;">
+                                </div>
+                            </div>
+                        </div>
                         </li>
                         <li class="block_get">
                             <li class="img_get">
@@ -50,11 +69,245 @@
                         </li>
                     </ul>
                 </nav>
-        
             </div>
-        
         </div>
     </header>
+
+    <!--INTRO-->
+    <section class="about">
+        <div class="container">
+            <div class="zagolovok_about">
+                <p class="text_who">КТО МЫ ТАКИЕ?</p>
+                <p class="text_miratex">MIRATEX HOUSE</p>
+            </div>
+            <div class="info_about">
+                <p class="text_about_info">Мы перерабатываем грузовые контейнеры в автономные<br>крипто-дома, гостиницы, офисы, кафе, которые можно<br>разместить там, где Вы хотите. Они абсолютно не зависят<br>от коммуникаций, полностью готовы к эксплуатации, а в<br>свободное от работы время они добывают крипто-валюту.</p>
+            </div>
+
+            <div class="img_intro">
+                <img src="assets/img/image1.png" alt="image1">
+            </div>
+
+            <div class="info_about2">
+                <p class="text_about2_info">В последнее время мир меняется и совсем не понятно, что<br>будет дальше, поэтому мы объединяем людей, которые хотят<br>жить и вести бизнес по своим правилам.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--ISPOLZOVAT-->
+    <section class="ispolzovat"  id="zarabati">
+        <div class="container">
+            <div class="zagolovok_ispolzovat">
+                <p class="text_how">КАК ВЫ МОЖЕТЕ<br>ИХ ИСПОЛЬЗОВАТЬ</p>
+            </div>
+
+            <div class="bth_ispolzovat">
+                 <!--1-->
+                <button class="button_down">
+                    <img src="assets/img/vector.png" alt="">
+                </button>
+                <div class="text_dop">
+                    <p class="info_dop">Дополнительное место<br>для дополнительных опций</p>
+                </div>
+                <!--2-->
+                <button class="button_down2">
+                    <img src="assets/img/vector.png" alt="">
+                </button>
+                <div class="text_dohod">
+                    <p class="info_dohod">Доход от аренды для<br>мгновенного возврата вложений</p>
+               </div>
+            </div>
+
+            <div class="zagolovok_zarabat">
+                <p class="text_zara">ЗАРАБАТЫВАЙ<br>С НАМИ</p>
+            </div>
+            <div class="zagolovok_zarabat2">
+                <p class="info_zara">Любая из наший моделей позволит вам жить или запустить<br>бизнес абсолютно автономно, а если вы оснастите её<br>модулем "Майнинг", она ещё и будет приносить вам<br>деньги.</p>
+            </div>
+            <button class="button_uznat">УЗНАТЬ БОЛЬШЕ</button>
+        </div>
+    </section>
+
+    <!--КАТАЛОГ-->
+    <section class="katalog" id="katalogid">
+        <div class="container">
+            <div class="katalog__wrapper">
+                <h1 class="text__katalog">КАТАЛОГ</h1>
+                <div class="text__katalog1">
+                    <a href="#" class="katalog__text1">Model Home 15</a>
+                    <a href="#" class="katalog__text">Model Home 30</a>
+                    <a href="#" class="katalog__text">Model Home lux</a>
+                    <a href="#" class="katalog__text">Model cafe l15</a>
+                    <a href="#" class="katalog__text">Model cafe s15</a>
+                    <a href="#" class="katalog__text">Model hostel 15</a>
+                    <a href="#" class="katalog__text">Model hotel 15</a>
+                </div>
+                <div class="text__katalog2">
+                    <a href="#" class="katalog__text1">Model office 15</a>
+                    <a href="#" class="katalog__text">Model office 30</a>
+                    <a href="#" class="katalog__text">Model shop 15</a>
+                    <a href="#" class="katalog__text">Model sleep box</a>
+                    <a href="#" class="katalog__text">Model wc</a>
+                </div>
+                <button class="btn__katalog">СКАЧАТЬ КАТАЛОГ</button>
+            </div>
+            <div class="line_block">
+                <img src="assets/img/line.png" alt="line">
+            </div>
+        </div>
+    </section>
+
+    <!--HOME-->
+    <section class="dom">
+        <div class="container">
+            <div class="wrapper_dom">
+                <p class="text_dom">Model Home 15</p>
+                <div class="img_dom">
+                    <img src="assets/img/image2.png" alt="image2">
+                </div>
+                <div class="img_tualet2">
+                    <div class="tualet_img1">
+                        <img src="assets/img/image3.png" alt="image3">
+                    </div>
+                    <div class="tualet_img2">
+                        <img src="assets/img/image4.png" alt="image4">
+                    </div>
+                    <div class="img_dom2">
+                        <img src="assets/img/image5.png" alt="image5">
+                    </div>
+                </div>
+                <div class="img_dom_text">
+                    <div class="hol">
+                        <img src="assets/img/image6.png" alt="image6">
+                    </div>
+                    <div class="holll">
+                        <div class="text_holl">
+                            <p class="text_hol">Идеальный вариант для жизни. Может быть <br/> использован для постоянного проживания, <br/> для отдыха на природе, гостевого домика.</p>
+                        </div>
+                        <div class="img_hol">
+                            <img src="assets/img/image7.png" alt="image7">
+                        </div>
+                    </div>
+                </div>
+                <div class="text_holll">
+                    <div class="text_btn">
+                        <div class="text_img_holl">
+                            <p class="text_holllll">• Изготовлен из одного 20Ft контейнера площадью 15 кв.м; </p>
+                            <p class="text_hollll">• Имеет полноценное спальное место диван-кровать; </p>
+                            <p class="text_hollll">• Кухня с индукционной плитой и холодильником;</p>
+                            <p class="text_hollll">• Душ и туалет;</p>
+                            <p class="text_hollll">• Телевизор;</p>
+                            <p class="text_hollll">• Wi-Fi Router;</p>
+                            <p class="text_hollll">• Теплый пол, обогревательные керамопанели;</p>
+                            <p class="text_hollll">• Климат-контроль;</p>
+                            <p class="text_hollll">• Автономное электричество;</p>
+                            <p class="text_hollll">• Автономная канализация.</p>
+                        </div>
+                        <button class="btn_holl">АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ</button>
+                    </div>
+                    <div class="img_holll">
+                        <img src="assets/img/image8.png" alt="image8">
+                    </div>
+                </div>
+            </div>
+
+            <div class="line_block2">
+                <img src="assets/img/line.png" alt="line">
+            </div>
+
+            <div class="bth_left_right">
+                <button class="btn_left">
+                    <img src="assets/img/vector_left.png" alt="vector_left">
+                </button>
+                <button class="btn_right">
+                    <img src="assets/img/vector_right.png" alt="strelka">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--WHAT-->
+    <section class="idei" id="kontaktyid">
+        <div class="container">
+            <div class="wrapper__idei">
+                <h2 class="text__idei">ЧТО ЕЩЕ МОЖНО <br/> СДЕЛАТЬ ИЗ <br/> КОНТЕЙНЕРОВ?</h2>
+                <p class="idei__text">Огромное количество идей в наших <br/> социальных сетей</p>
+                <div class="img__idei">
+                    <a href="#" class="img_id">
+                        <img src="assets/img/instagramfooter.png" alt="inst" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="#" class="img_id1">
+                        <img src="assets/img/facebookfooter.png" alt="facebook" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="#" class="img_id1">
+                        <img src="assets/img/pinterestfooter.png" alt="pinterest" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="#" class="img_id1">
+                        <img src="assets/img/youtubefooter.png" alt="youtube" style="width: 48px; height: 48px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer" id="kontakt">
+        <div class="logo_footer">
+            <img src="assets/img/logo_footer.png" alt="logo_footer">
+        </div>
+
+        <div class="footer_info">
+            <p class="text_inf">Наша команда берет на себя все: от разработки идеи и до<br>реализации. Функциональность и традиции — это то, что мы<br>внедряем в каждый наш проект.</p>
+        </div>
+
+        <div class="footer_block">
+            <div class="text_footer">
+                <h1 class="footer_zagolovok">ЗВОНИТЕ</h1>
+                <a href="#" class="data">GB +4420 45770896</a>
+                <a href="#" class="data">RU +7 499 3227009</a>
+                <a href="#" class="data">PL +48 784 806484</a>
+            </div>
+            <div class="text_footer2">
+                <h1 class="footer_zagolovok">ПИШИТЕ</h1>
+                <div class="data_mail">
+                    <a href="#" class="data">info@miratexhouse.com</a>
+                </div>
+            </div>
+            <div class="text_footer3">
+                <h1 class="footer_zagolovok">ПРИЕЗЖАЙТЕ</h1>
+                <div class="data_house">
+                    <a href="#" class="data">Miratex House OU</br>Registry code 14940959</br>Address: Sepapaja 6, Tallinn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="line_footer">
+            <img src="assets/img/linefooter.png" alt="linefooter">
+        </div>
+
+        <div class="text_reserved">
+            <p class="info_reserved">© MiratexHouse. all rights reserved</p>
+        </div>
+
+        <div class="block_info">
+            <div class="footer_disclam">
+                <a href="#" class="info_footer">DISCLAIMER</a>
+            </div>
+            <div class="footer_general">
+                <a href="#" class="info_footer">INVESTMENTS RASKS</a>
+            </div>
+            <div class="footer_general">
+                <a href="#" class="info_footer">GENERAL LOAM TEARMS</a>
+            </div>
+            <div class="footer_general">
+                <a href="#" class="info_footer">RISK WARNING</a>
+            </div>
+            <div class="footer_general">
+                <a href="#" class="info_footer">TERMS OF USE</a>
+            </div>
+        </div>
+    </footer>
+
 
     
 </body>
