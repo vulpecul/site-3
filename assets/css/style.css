@@ -708,16 +708,20 @@ body{
     height: 340px;
     background: #161616;
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 .logo_footer{
     width: 102px;
     height: 32.13px;
-    margin-left: 161px;
+    margin-left: 0px;
     margin-top: -32px;  
 }
 .footer_info{
     width: 400px;
     height: 51px;
-    margin-left: 206px;
+    margin-left: 44px;
     margin-top: 55px;   
 }
 .text_inf{
@@ -732,7 +736,7 @@ body{
 .footer_block{
     width: 600px;
     height: 138px;
-    margin-left: 780px;
+    margin-left: 620px;
     display: flex;
     margin-top: -72px;
 }
@@ -778,13 +782,13 @@ body{
 .line_footer{
     width: 1145px;
     height: 0px;
-    margin-left: 205px;
+    margin-left: 43px;
     margin-top: -5px;   
 }
 .text_reserved{
     width: 205px;
     height: 17px;
-    margin-left: 205px;
+    margin-left: 43px;
     margin-top: 35px;
 }
 .info_reserved{
@@ -797,7 +801,7 @@ body{
 }
 .block_info{
     display: flex;
-    margin-left: 754px;
+    margin-left: 592px;
     margin-top: -19px;
 }
 .info_footer{
